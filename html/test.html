@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+<head>
+	<title>Математика</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../style/test_page.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div>Приклад # <span></span>
+			<div>щоб отримати оцінку спробуй вирішити не менше 20 прикладів</div>
+		</div>
+        <div class="test">
+            <div class="first_number_block">
+                <div class="first_number_name">
+				</div>
+				<div class="number">
+					<div class="third_digit_block">
+						<div class="third_digit_value text_value">
+						</div>
+						<div class="third_digit_name">
+							сотні
+						</div>
+					</div>
+					<div class="second_digit_block">
+						<div class="second_digit_value text_value">
+						</div>
+						<div class="second_digit_name">
+							десятки
+						</div>
+					</div>
+					<div class="first_digit_block">
+						<div class="first_digit_value text_value">
+						</div>
+						<div class="first_digit_name">
+							одиниці
+						</div>
+					</div>
+				</div>
+            </div>
+            <div class="operand">
+				<div>
+				</div>
+            </div>
+            <div class="second_number_block">
+                <div class="second_number_name">
+				</div>
+				<div class="number">
+					<div class="third_digit_block">
+						<div class="third_digit_value text_value">
+						</div>
+						<div class="third_digit_name">
+							сотні
+						</div>
+					</div>
+					<div class="second_digit_block">
+						<div class="second_digit_value text_value">
+						</div>
+						<div class="second_digit_name">
+							десятки
+						</div>
+					</div>
+					<div class="first_digit_block">
+						<div class="first_digit_value text_value">
+						</div>
+						<div class="first_digit_name">
+							одиниці
+						</div>
+					</div>
+				</div>
+            </div>
+            <div class="equal">
+				<div>
+					= 
+				</div>
+            </div>
+            <div class="third_number_block">
+                <div class="third_number_name">
+				</div>
+				<div class="number">
+					<div class="fourth_digit_block block">
+						<div class="fourth_digit_value text_value">
+							<input type="text" id="fourth_result_number">
+						</div>
+						<div class="fourth_digit_name">
+							тисячі
+						</div>
+					</div>
+					<div class="third_digit_block block">
+						<div class="third_digit_value text_value">
+							<input type="text" id="third_result_number">
+						</div>
+						<div class="third_digit_name">
+							сотні
+						</div>
+					</div>
+					<div class="second_digit_block block">
+						<div class="second_digit_value text_value">
+							<input type="text" id="second_result_number">
+						</div>
+						<div class="second_digit_name">
+							десятки
+						</div>
+					</div>
+					<div class="first_digit_block block">
+						<div class="first_digit_value text_value">
+							<input type="text" id="first_result_number">
+						</div>
+						<div class="first_digit_name">
+							одиниці
+						</div>
+					</div>
+				</div>
+            </div>
+			<div style="display:flex; height:auto">
+				<button>Перевірити</button>
+			</div>
+        </div>
+        <div class="message">
+			<div class='right'>
+				<div class='message_txt'>Правильно! &#128512;</div>
+				<div class='nxt_btn btn'>
+					<button>Наступний приклад</button>
+				</div>
+				<div class='complete_btn btn'>
+					<button>Завершити тест</button>
+				</div>
+			</div>
+			<div class='wrong'>
+				<div class='message_txt'>Неправильно! &#128532;</div>
+				<div class='one_more_btn btn'>
+					<button>Спробувати ще раз</button>
+				</div>
+				<div class='nxt_btn btn'>
+					<button>Наступний приклад</button>
+				</div>
+				<div class='complete_btn btn'>
+					<button>Завершити тест</button>
+				</div>
+			</div>
+			<div class='complete'>
+				<div class='message_txt'></div>
+				<div class='one_more_btn btn'>
+					<button>Пройти ще раз</button>
+				</div>
+				<div class='main_btn btn'>
+					<button>Повернутися на головну сторінку</button>
+				</div>
+			</div>
+		</div>
+    </div>
+	<script src="../js/test_handler.js"></script>
+</body>
+</html>

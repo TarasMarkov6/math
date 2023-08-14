@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+<head>
+	<title>Математика</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="./style/start_page.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+	<div class="greeting">
+			&#129505; Привіт, Мар'яна! &#129505;
+	</div>
+	<div class="test_selection">
+		<div class="txt_operation">
+			З якою математичною дією ти хотіла б потренуватися?
+		</div>
+		<div class="radio_operation">
+			<div class="sum_operation">
+				<input type="radio" id="sum" name="operation" value="sum">
+				<label for="sum">додавання</label>
+			</div>
+			<div class="sub_operation">
+				<input type="radio" id="sub" name="operation" value="sub">
+				<label for="sub">віднімання</label>
+			</div>
+		</div>
+		<div class="txt_decimal">
+			Обери розряд чисел для тренування
+		</div>
+		<div class="radio_decimal">
+			<div class="first_digit_decimal">
+				<input type="radio" id="first_digit" name="decimal" value="first_digit">
+				<label for="first_digit">одиниці</label>					
+			</div>
+			<div class="second_digit_decimal">
+				<input type="radio" id="second_digit" name="decimal" value="second_digit">
+				<label for="second_digit">десятки</label>					
+			</div>
+			<div class="third_digit_decimal">
+				<input type="radio" id="third_digit" name="decimal" value="third_digit">
+				<label for="third_digit">сотні</label>				
+			</div>
+		</div>
+		<div class="txt_difficulty_level">
+			Обери рівень складності
+		</div>
+		<div class="radio_difficulty_level">
+			<div class="low_level">
+				<input type="radio" id="low" name="level" value="low">
+				<label for="low">легший</label>					
+			</div>
+			<div class="hard_level">
+				<input type="radio" id="hard" name="level" value="hard">
+				<label for="hard">важчий</label>					
+			</div>
+		</div>
+		<div class="go_test">
+			<div class="txt_go_test">Перейти до тренування</div>
+			<div>
+				<button>
+					GO!
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="./js/go_button_handler.js"></script>
+</body>
+</html>
